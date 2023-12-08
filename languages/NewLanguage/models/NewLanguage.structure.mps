@@ -114,7 +114,7 @@
     <node concept="1TJgyi" id="74LoYlBJkVN" role="1TKVEl">
       <property role="IQ2nx" value="8156410237083799283" />
       <property role="TrG5h" value="contact" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="74LoYlBJkVY" role="1TKVEl">
       <property role="IQ2nx" value="8156410237083799294" />
@@ -154,7 +154,7 @@
     <node concept="1TJgyi" id="56OGMA0URFX" role="1TKVEl">
       <property role="IQ2nx" value="5887527603718028029" />
       <property role="TrG5h" value="balance" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyj" id="74LoYlBJk82" role="1TKVEi">
       <property role="IQ2ns" value="8156410237083795970" />

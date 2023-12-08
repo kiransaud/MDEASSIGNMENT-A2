@@ -115,7 +115,7 @@
     <node concept="myz6_" id="56OGMA0URFU" role="mz2P2">
       <property role="myzJ_" value="23" />
       <property role="myzJ9" value="74LoYlBIPw8/EUR" />
-      <property role="3hnWBk" value="50000" />
+      <property role="3hnWBk" value="56000" />
       <ref role="mz27B" node="74LoYlC38tI" resolve="saving" />
       <ref role="mz4F9" node="56OGMA0X0mP" />
       <ref role="mz4F3" node="56OGMA0ZIE6" />
@@ -125,7 +125,7 @@
       </node>
     </node>
     <node concept="myz6_" id="56OGMA0X0mJ" role="mz2P2">
-      <property role="myzJ_" value="299" />
+      <property role="myzJ_" value="244" />
       <property role="3hnWBk" value="6000" />
       <property role="myzJ9" value="74LoYlBIPw8/EUR" />
       <ref role="mz27B" node="74LoYlC38tN" resolve="checking" />

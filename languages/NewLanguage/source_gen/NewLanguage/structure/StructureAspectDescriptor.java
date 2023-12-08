@@ -136,7 +136,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("account_id", 0x713163e567bb5800L).type(PrimitiveTypeId.INTEGER).origin("8156410237083670528").done();
     b.property("currency", 0x713163e567bb582cL).type(MetaIdFactory.dataTypeId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5806L)).origin("8156410237083670572").done();
-    b.property("balance", 0x51b4b32980eb7afdL).type(PrimitiveTypeId.STRING).origin("5887527603718028029").done();
+    b.property("balance", 0x51b4b32980eb7afdL).type(PrimitiveTypeId.INTEGER).origin("5887527603718028029").done();
     b.associate("accountType", 0x713163e567bd4202L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L).optional(false).origin("8156410237083795970").done();
     b.associate("partyAssociatedWithAccount", 0x713163e567bd2926L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L).optional(false).origin("8156410237083789606").done();
     b.associate("InstitutionWithAccount", 0x713163e567bd292cL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL).optional(false).origin("8156410237083789612").done();
@@ -188,7 +188,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("financialEntityName", 0x713163e567bb5854L).type(PrimitiveTypeId.STRING).origin("8156410237083670612").done();
     b.property("finnancialEntityType", 0x713163e567bb5851L).type(MetaIdFactory.dataTypeId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5253L)).origin("8156410237083670609").done();
     b.property("address", 0x713163e567bd4eeaL).type(PrimitiveTypeId.STRING).origin("8156410237083799274").done();
-    b.property("contact", 0x713163e567bd4ef3L).type(PrimitiveTypeId.STRING).origin("8156410237083799283").done();
+    b.property("contact", 0x713163e567bd4ef3L).type(PrimitiveTypeId.INTEGER).origin("8156410237083799283").done();
     b.property("email", 0x713163e567bd4efeL).type(PrimitiveTypeId.STRING).origin("8156410237083799294").done();
     b.aggregate("SpecificAttributes", 0x713163e567bb5864L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5263L).optional(true).ordered(true).multiple(true).origin("8156410237083670628").done();
     b.aggregate("regulatoryEntities", 0x713163e567c2f7f4L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2f7f7L).optional(true).ordered(true).multiple(true).origin("8156410237084170228").done();
