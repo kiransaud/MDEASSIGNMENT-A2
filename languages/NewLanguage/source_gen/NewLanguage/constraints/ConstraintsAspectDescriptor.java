@@ -22,9 +22,19 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
         return new Account_Constraints();
       case 1:
         return new FinancialEntity_Constraints();
+      case 2:
+        return new FinancialProduct_Constraints();
+      case 3:
+        return new Party_Constraints();
+      case 4:
+        return new Regulation_Constraints();
+      case 5:
+        return new RegulatoryEntity_Constraints();
+      case 6:
+        return new Transctions_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5240L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5240L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5212L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5245L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5241L)).seal();
 }

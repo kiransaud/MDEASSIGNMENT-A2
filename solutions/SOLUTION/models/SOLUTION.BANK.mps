@@ -235,7 +235,7 @@
       <property role="myzHP" value="Financial Regulatory Authority" />
       <property role="mWTFT" value="Government Agency" />
       <node concept="myz6w" id="56OGMA10g_s" role="mS8iS">
-        <property role="myzHd" value="123" />
+        <property role="myzHd" value="124" />
         <property role="myzHf" value="capital Adequacy standards" />
         <property role="myzH8" value="International frameworks for banks to ensure financial stability." />
       </node>
@@ -245,7 +245,7 @@
       <property role="myzHP" value="Financial Compliance Board" />
       <property role="mWTFT" value="Compliance Board" />
       <node concept="myz6w" id="56OGMA11kuI" role="mS8iS">
-        <property role="myzHd" value="44" />
+        <property role="myzHd" value="978" />
         <property role="myzHf" value="Anti-Money Laundering Regulations" />
         <property role="myzH8" value="Guidelines to prevent money laundering and terrorist financing." />
       </node>
@@ -276,7 +276,7 @@
     <property role="TrG5h" value="Transctions" />
     <node concept="myz6$" id="56OGMA12W4w" role="mzzM8">
       <property role="myzHt" value="23" />
-      <property role="myzHu" value="450" />
+      <property role="myzHu" value="300" />
       <property role="myzHq" value="dec-13-2023" />
       <ref role="mWMZ$" node="56OGMA11Qq7" />
       <ref role="mWMZH" node="56OGMA12oWt" />
