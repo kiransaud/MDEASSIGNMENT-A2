@@ -72,7 +72,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>regulatoryID  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "regulatoryID  ");
     editorCell.setCellId("Constant_fzlgi9_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -120,7 +120,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>regulationName ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "regulationName ");
     editorCell.setCellId("Constant_fzlgi9_a1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -168,7 +168,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_4() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>description  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "description  ");
     editorCell.setCellId("Constant_fzlgi9_a2a");
     editorCell.setDefaultText("");
     return editorCell;

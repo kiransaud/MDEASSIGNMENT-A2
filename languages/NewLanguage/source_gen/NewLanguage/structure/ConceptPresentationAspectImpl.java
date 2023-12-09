@@ -22,6 +22,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_FinancialProductTypeRef;
   private ConceptPresentation props_Party;
   private ConceptPresentation props_PartyList;
+  private ConceptPresentation props_ROOT;
   private ConceptPresentation props_Regulation;
   private ConceptPresentation props_RegulatoryEntity;
   private ConceptPresentation props_RegulatoryEntityList;
@@ -135,6 +136,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PartyList = cpb.create();
         }
         return props_PartyList;
+      case LanguageConceptSwitch.ROOT:
+        if (props_ROOT == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_ROOT = cpb.create();
+        }
+        return props_ROOT;
       case LanguageConceptSwitch.Regulation:
         if (props_Regulation == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

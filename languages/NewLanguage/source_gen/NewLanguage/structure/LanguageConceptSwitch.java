@@ -22,18 +22,19 @@ public final class LanguageConceptSwitch {
   public static final int FinancialProductTypeRef = 10;
   public static final int Party = 11;
   public static final int PartyList = 12;
-  public static final int Regulation = 13;
-  public static final int RegulatoryEntity = 14;
-  public static final int RegulatoryEntityList = 15;
-  public static final int RegulatoryEntityRef = 16;
-  public static final int RegulatoryEntityType = 17;
-  public static final int SpecificAttributes = 18;
-  public static final int TransactionTypeList = 19;
-  public static final int TranscationModeList = 20;
-  public static final int TransctionList = 21;
-  public static final int TransctionMode = 22;
-  public static final int Transctions = 23;
-  public static final int TransctionsType = 24;
+  public static final int ROOT = 13;
+  public static final int Regulation = 14;
+  public static final int RegulatoryEntity = 15;
+  public static final int RegulatoryEntityList = 16;
+  public static final int RegulatoryEntityRef = 17;
+  public static final int RegulatoryEntityType = 18;
+  public static final int SpecificAttributes = 19;
+  public static final int TransactionTypeList = 20;
+  public static final int TranscationModeList = 21;
+  public static final int TransctionList = 22;
+  public static final int TransctionMode = 23;
+  public static final int Transctions = 24;
+  public static final int TransctionsType = 25;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x437c9db1d8f44db9L, 0xb294bc781192d511L);
@@ -50,6 +51,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x713163e567c2fb2cL, FinancialProductTypeRef);
     builder.put(0x713163e567bb5242L, Party);
     builder.put(0x713163e567bd7993L, PartyList);
+    builder.put(0x7da28be9f02c46d1L, ROOT);
     builder.put(0x713163e567bb5245L, Regulation);
     builder.put(0x713163e567bb5244L, RegulatoryEntity);
     builder.put(0x713163e567bb57f7L, RegulatoryEntityList);

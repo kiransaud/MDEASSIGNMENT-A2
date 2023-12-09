@@ -66,7 +66,6 @@ public class Account_Constraints extends BaseConstraintsDescriptor {
         }
       });
 
-
     }
   }
   public static class Currency_Property extends BasePropertyConstraintsDescriptor {
@@ -77,12 +76,16 @@ public class Account_Constraints extends BaseConstraintsDescriptor {
     public boolean validateValue(SNode node, Object propertyValue, CheckingNodeContext checkingNodeContext) {
       boolean result = staticValidateProperty(node, SPropertyOperations.castEnummember(propertyValue));
       if (!(result) && checkingNodeContext != null) {
-        checkingNodeContext.setBreakingNode(new SNodePointer("r:2b841b4c-f388-4c4b-81d6-53e1b072843e(NewLanguage.constraints)", "3158792310616779516"));
+        checkingNodeContext.setBreakingNode(new SNodePointer("r:2b841b4c-f388-4c4b-81d6-53e1b072843e(NewLanguage.constraints)", "9052952037841092547"));
       }
       return result;
     }
     private static boolean staticValidateProperty(SNode node, SEnumerationLiteral propertyValue) {
-      return SPropertyOperations.getEnum(node, PROPS.currency$3aYj) != null;
+      if (propertyValue.toString().length() >= 2 && propertyValue != null) {
+        return true;
+      } else {
+        return false;
+      }
     }
   }
   @Override

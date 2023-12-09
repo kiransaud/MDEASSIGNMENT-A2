@@ -612,5 +612,62 @@
       <ref role="20lvS9" node="74LoYlBIP8i" resolve="FinancialProduct" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7QyyYBKb4rh">
+    <property role="EcuMT" value="9052952037841192657" />
+    <property role="TrG5h" value="ROOT" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="7QyyYBKb4ri" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192658" />
+      <property role="20kJfa" value="accountType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIPzx" resolve="AccountType" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4rk" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192660" />
+      <property role="20kJfa" value="partyAssociatedWithAccount" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP92" resolve="Party" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4rl" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192661" />
+      <property role="20kJfa" value="InstitutionWithAccount" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP8Z" resolve="FinancialEntity" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4sK" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192752" />
+      <property role="20kJfa" value="servicesofferedBy" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP8Z" resolve="FinancialEntity" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4te" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192782" />
+      <property role="20kJfa" value="product" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBJKj5" resolve="FinancialProductType" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4tE" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192810" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP94" resolve="RegulatoryEntity" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4vu" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192926" />
+      <property role="20kJfa" value="transactionType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP9r" resolve="TransctionsType" />
+    </node>
+    <node concept="1TJgyj" id="7QyyYBKb4vv" role="1TKVEi">
+      <property role="IQ2ns" value="9052952037841192927" />
+      <property role="20kJfa" value="transactionMode" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="74LoYlBIP9I" resolve="TransctionMode" />
+    </node>
+    <node concept="PrWs8" id="7QyyYBKb53$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

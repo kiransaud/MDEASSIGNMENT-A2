@@ -88,7 +88,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>partyId ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "partyId ");
     editorCell.setCellId("Constant_ynbn_a1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -136,7 +136,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_3() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>partyName ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "partyName ");
     editorCell.setCellId("Constant_ynbn_a2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -184,7 +184,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_5() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>partyType  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "partyType  ");
     editorCell.setCellId("Constant_ynbn_a3a");
     editorCell.setDefaultText("");
     return editorCell;

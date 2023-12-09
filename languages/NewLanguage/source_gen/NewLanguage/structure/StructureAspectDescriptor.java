@@ -29,6 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptFinancialProductTypeRef = createDescriptorForFinancialProductTypeRef();
   /*package*/ final ConceptDescriptor myConceptParty = createDescriptorForParty();
   /*package*/ final ConceptDescriptor myConceptPartyList = createDescriptorForPartyList();
+  /*package*/ final ConceptDescriptor myConceptROOT = createDescriptorForROOT();
   /*package*/ final ConceptDescriptor myConceptRegulation = createDescriptorForRegulation();
   /*package*/ final ConceptDescriptor myConceptRegulatoryEntity = createDescriptorForRegulatoryEntity();
   /*package*/ final ConceptDescriptor myConceptRegulatoryEntityList = createDescriptorForRegulatoryEntityList();
@@ -58,7 +59,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAccount, myConceptAccountList, myConceptAccountType, myConceptAccountTypeList, myConceptFinanciaEntitylList, myConceptFinancialEntity, myConceptFinancialProduct, myConceptFinancialProductList, myConceptFinancialProductType, myConceptFinancialProductTypeList, myConceptFinancialProductTypeRef, myConceptParty, myConceptPartyList, myConceptRegulation, myConceptRegulatoryEntity, myConceptRegulatoryEntityList, myConceptRegulatoryEntityRef, myConceptRegulatoryEntityType, myConceptSpecificAttributes, myConceptTransactionTypeList, myConceptTranscationModeList, myConceptTransctionList, myConceptTransctionMode, myConceptTransctions, myConceptTransctionsType);
+    return Arrays.asList(myConceptAccount, myConceptAccountList, myConceptAccountType, myConceptAccountTypeList, myConceptFinanciaEntitylList, myConceptFinancialEntity, myConceptFinancialProduct, myConceptFinancialProductList, myConceptFinancialProductType, myConceptFinancialProductTypeList, myConceptFinancialProductTypeRef, myConceptParty, myConceptPartyList, myConceptROOT, myConceptRegulation, myConceptRegulatoryEntity, myConceptRegulatoryEntityList, myConceptRegulatoryEntityRef, myConceptRegulatoryEntityType, myConceptSpecificAttributes, myConceptTransactionTypeList, myConceptTranscationModeList, myConceptTransctionList, myConceptTransctionMode, myConceptTransctions, myConceptTransctionsType);
   }
 
   @Override
@@ -91,6 +92,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptParty;
       case LanguageConceptSwitch.PartyList:
         return myConceptPartyList;
+      case LanguageConceptSwitch.ROOT:
+        return myConceptROOT;
       case LanguageConceptSwitch.Regulation:
         return myConceptRegulation;
       case LanguageConceptSwitch.RegulatoryEntity:
@@ -258,6 +261,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)/8156410237083810195");
     b.version(3);
     b.aggregate("parties", 0x713163e567bd944fL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L).optional(true).ordered(true).multiple(true).origin("8156410237083817039").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForROOT() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("NewLanguage", "ROOT", 0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)/9052952037841192657");
+    b.version(3);
+    b.associate("accountType", 0x7da28be9f02c46d2L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L).optional(false).origin("9052952037841192658").done();
+    b.associate("partyAssociatedWithAccount", 0x7da28be9f02c46d4L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L).optional(false).origin("9052952037841192660").done();
+    b.associate("InstitutionWithAccount", 0x7da28be9f02c46d5L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL).optional(false).origin("9052952037841192661").done();
+    b.associate("servicesofferedBy", 0x7da28be9f02c4730L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL).optional(false).origin("9052952037841192752").done();
+    b.associate("product", 0x7da28be9f02c474eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c5L).optional(false).origin("9052952037841192782").done();
+    b.associate("entity", 0x7da28be9f02c476aL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L).optional(false).origin("9052952037841192810").done();
+    b.associate("transactionType", 0x7da28be9f02c47deL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb525bL).optional(false).origin("9052952037841192926").done();
+    b.associate("transactionMode", 0x7da28be9f02c47dfL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb526eL).optional(false).origin("9052952037841192927").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRegulation() {

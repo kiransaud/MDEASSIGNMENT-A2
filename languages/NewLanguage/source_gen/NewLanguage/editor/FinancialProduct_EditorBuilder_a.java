@@ -89,7 +89,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>ProductName");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "ProductName");
     editorCell.setCellId("Constant_xxdhoz_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -134,7 +134,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>product ID");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "product ID");
     editorCell.setCellId("Constant_xxdhoz_a1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -182,7 +182,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_4() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>productType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "productType");
     editorCell.setCellId("Constant_xxdhoz_a2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -369,7 +369,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_7() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_xxdhoz_a5a");
     editorCell.setDefaultText("");
     return editorCell;

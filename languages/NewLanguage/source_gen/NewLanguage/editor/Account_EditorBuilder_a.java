@@ -88,7 +88,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>party associated with account : ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "party associated with account : ");
     editorCell.setCellId("Constant_neohdr_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -183,7 +183,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>institution with account : ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "institution with account : ");
     editorCell.setCellId("Constant_neohdr_a1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -278,7 +278,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>account_id : ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "account_id : ");
     editorCell.setCellId("Constant_neohdr_a2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -320,7 +320,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_3() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>balance");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "balance");
     editorCell.setCellId("Constant_neohdr_a3a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -367,7 +367,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_5() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>currency :");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "currency :");
     editorCell.setCellId("Constant_neohdr_a4a");
     editorCell.setDefaultText("");
     return editorCell;

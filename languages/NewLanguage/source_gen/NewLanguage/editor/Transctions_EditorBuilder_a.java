@@ -91,7 +91,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>transactionId  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "transactionId  ");
     editorCell.setCellId("Constant_5tgzdw_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -139,7 +139,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>amount  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "amount  ");
     editorCell.setCellId("Constant_5tgzdw_a1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -187,7 +187,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_4() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>date  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "date  ");
     editorCell.setCellId("Constant_5tgzdw_a2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -339,7 +339,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_8() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>type  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "type  ");
     editorCell.setCellId("Constant_5tgzdw_a6a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -422,7 +422,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_11() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ">>>transactionMode");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "transactionMode");
     editorCell.setCellId("Constant_5tgzdw_a7a");
     editorCell.setDefaultText("");
     return editorCell;
