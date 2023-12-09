@@ -270,14 +270,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)/9052952037841192657");
     b.version(3);
-    b.associate("accountType", 0x7da28be9f02c46d2L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L).optional(false).origin("9052952037841192658").done();
-    b.associate("partyAssociatedWithAccount", 0x7da28be9f02c46d4L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L).optional(false).origin("9052952037841192660").done();
-    b.associate("InstitutionWithAccount", 0x7da28be9f02c46d5L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL).optional(false).origin("9052952037841192661").done();
-    b.associate("servicesofferedBy", 0x7da28be9f02c4730L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL).optional(false).origin("9052952037841192752").done();
-    b.associate("product", 0x7da28be9f02c474eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c5L).optional(false).origin("9052952037841192782").done();
-    b.associate("entity", 0x7da28be9f02c476aL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L).optional(false).origin("9052952037841192810").done();
-    b.associate("transactionType", 0x7da28be9f02c47deL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb525bL).optional(false).origin("9052952037841192926").done();
-    b.associate("transactionMode", 0x7da28be9f02c47dfL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb526eL).optional(false).origin("9052952037841192927").done();
+    b.associate("accountType", 0x7da28be9f02c46d2L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fa5dL).optional(false).origin("9052952037841192658").done();
+    b.associate("partyAssociatedWithAccount", 0x7da28be9f02c46d4L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bd7993L).optional(false).origin("9052952037841192660").done();
+    b.associate("servicesofferedBy", 0x7da28be9f02c4730L).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bea9d4L).optional(false).origin("9052952037841192752").done();
+    b.associate("product", 0x7da28be9f02c474eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c1L).optional(false).origin("9052952037841192782").done();
+    b.associate("entity", 0x7da28be9f02c476aL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb57f7L).optional(false).origin("9052952037841192810").done();
+    b.associate("TransactionType", 0x7da28be9f02c47deL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fcbfL).optional(false).origin("9052952037841192926").done();
+    b.associate("Transctionmode", 0x1fea1f0473b4ef8eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L).optional(true).origin("2299684663707627406").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRegulation() {

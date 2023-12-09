@@ -77,7 +77,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createCollection_4());
     editorCell.addEditorCell(createRefNodeList_1());
     editorCell.addEditorCell(createCollection_5());
-    editorCell.addEditorCell(createConstant_10());
+    editorCell.addEditorCell(createConstant_9());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -364,25 +364,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_7());
     editorCell.addEditorCell(createConstant_8());
-    editorCell.addEditorCell(createConstant_9());
     editorCell.addEditorCell(createRefCell_0());
     return editorCell;
   }
   private EditorCell createConstant_7() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "servicesoffered by");
     editorCell.setCellId("Constant_xxdhoz_a5a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createConstant_8() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "servicesoffered by");
-    editorCell.setCellId("Constant_xxdhoz_b5a");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_9() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ":");
-    editorCell.setCellId("Constant_xxdhoz_c5a");
+    editorCell.setCellId("Constant_xxdhoz_b5a");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -472,7 +465,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
   }
-  private EditorCell createConstant_10() {
+  private EditorCell createConstant_9() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_xxdhoz_g0");
     editorCell.setDefaultText("");

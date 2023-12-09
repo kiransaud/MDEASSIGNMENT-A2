@@ -54,9 +54,21 @@
         </node>
         <node concept="lc7rE" id="5EfTgpMnMoP" role="3cqZAp">
           <node concept="la8eA" id="5EfTgpMnMpl" role="lcghm">
-            <property role="lacIc" value="&lt;body&gt;\n\n&lt;div class=&quot;header&quot;&gt;\n    &lt;h1&gt;Welcome to the Financial System Modelling Language&lt;/h1&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;content&quot;&gt;\n    \n    &lt;section&gt;\n        &lt;h3&gt;List of Account Types&lt;/h3&gt;\n        &lt;ul&gt;\n" />
+            <property role="lacIc" value="&lt;body&gt;\n\n&lt;div class=&quot;header&quot;&gt;\n    &lt;h1&gt;Welcome to the Financial System Modelling Language&lt;/h1&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;content&quot;&gt;\n    \n    &lt;section&gt;\n        &lt;h3&gt;Financial Institution&lt;/h3&gt;\n        &lt;ul&gt;\n" />
           </node>
         </node>
+        <node concept="lc7rE" id="5EfTgpMnW3A" role="3cqZAp">
+          <node concept="la8eA" id="5EfTgpMnWd1" role="lcghm">
+            <property role="lacIc" value="&lt;/ul&gt;\n    &lt;/section&gt;\n" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="5EfTgpMnWlJ" role="3cqZAp">
+          <node concept="la8eA" id="5EfTgpMnWpl" role="lcghm">
+            <property role="lacIc" value="&lt;section&gt;\n        &lt;h3&gt;List of Services Offered&lt;/h3&gt;\n        &lt;ul&gt;\n    " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZE7KhNHeX5" role="3cqZAp" />
+        <node concept="3clFbH" id="1ZE7KhNGTlm" role="3cqZAp" />
         <node concept="3clFbH" id="7QyyYBKg3zm" role="3cqZAp" />
       </node>
     </node>

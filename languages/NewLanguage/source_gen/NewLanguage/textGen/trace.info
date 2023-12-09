@@ -19,14 +19,19 @@
       <node id="9052952037841194990" at="11,54,12,55" concept="4" />
       <node id="6525686200934540778" at="12,55,13,850" concept="1" />
       <node id="6525686200934540885" at="13,850,14,228" concept="1" />
-      <node id="9052952037841194990" at="10,0,16,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="9052952037841194990" at="11,54,14,228">
+      <node id="6525686200934581057" at="14,228,15,42" concept="1" />
+      <node id="6525686200934581845" at="15,42,16,91" concept="1" />
+      <node id="2299684663707627333" at="16,91,17,0" concept="6" />
+      <node id="2299684663707538774" at="17,0,18,0" concept="6" />
+      <node id="9052952037842499798" at="18,0,19,0" concept="6" />
+      <node id="9052952037841194990" at="10,0,21,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="9052952037841194990" at="11,54,19,0">
         <var name="tgs" id="9052952037841194990" />
       </scope>
-      <scope id="9052952037841194990" at="10,0,16,0">
+      <scope id="9052952037841194990" at="10,0,21,0">
         <var name="ctx" id="9052952037841194990" />
       </scope>
-      <unit id="9052952037841194990" at="9,0,17,0" name="NewLanguage.textGen.ROOT_TextGen" />
+      <unit id="9052952037841194990" at="9,0,22,0" name="NewLanguage.textGen.ROOT_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="9052952037841194990" at="26,38,27,34" concept="5" />

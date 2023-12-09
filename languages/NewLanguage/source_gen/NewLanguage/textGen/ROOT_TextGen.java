@@ -11,6 +11,11 @@ public class ROOT_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("<!DOCTYPE html>\n<html>\n<head>\n    <title>Financial System Modeling Language Documentation</title>\n    <style>\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f0f2f5;\n        }\n        .header {\n            background-color: #123456;\n            color: white;\n            text-align: center;\n            padding: 15px 0;\n        }\n        .content {\n            padding: 20px;\n            color: #333;\n        }\n        h2 {\n            border-bottom: 2px solid #123456;\n            padding-bottom: 5px;\n        }\n        ul {\n            list-style-type: disc;\n            margin-left: 20px;\n        }\n        li {\n            margin-bottom: 5px;\n        }\n    </style>\n</head>\n");
-    tgs.append("<body>\n\n<div class=\"header\">\n    <h1>Welcome to the Financial System Modelling Language</h1>\n</div>\n\n<div class=\"content\">\n    \n    <section>\n        <h3>List of Account Types</h3>\n        <ul>\n");
+    tgs.append("<body>\n\n<div class=\"header\">\n    <h1>Welcome to the Financial System Modelling Language</h1>\n</div>\n\n<div class=\"content\">\n    \n    <section>\n        <h3>Financial Institution</h3>\n        <ul>\n");
+    tgs.append("</ul>\n    </section>\n");
+    tgs.append("<section>\n        <h3>List of Services Offered</h3>\n        <ul>\n    ");
+
+
+
   }
 }

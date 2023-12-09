@@ -181,7 +181,7 @@
       <property role="mz2Of" value="India" />
       <property role="mz2Om" value="987888" />
       <property role="mz2Or" value="prab@nepal.np" />
-      <property role="TrG5h" value="prabhu bank limited" />
+      <property role="TrG5h" value="prabhu Investment limited" />
       <node concept="mWTgi" id="7QyyYBKeT$6" role="mWTgh">
         <ref role="mWTgt" node="56OGMA10g_m" resolve="financial rule" />
       </node>
@@ -202,19 +202,19 @@
         <property role="mzGCq" value="5 per month" />
       </node>
       <node concept="mWTz9" id="56OGMA0Ump3" role="mWTzd">
-        <ref role="mWTz8" node="56OGMA0X0n7" resolve="investment" />
+        <ref role="mWTz8" node="56OGMA0Ump8" resolve="savings " />
       </node>
     </node>
     <node concept="myz7R" id="56OGMA0Xyiz" role="mNjqi">
-      <property role="myz72" value="fixed Deposit" />
+      <property role="myz72" value="Stock Investment" />
       <property role="myz70" value="2355" />
-      <ref role="myzI2" node="56OGMA0Y4eq" />
+      <ref role="myzI2" node="56OGMA0Y4eq" resolve="prabhu Investment limited" />
       <node concept="myz66" id="56OGMA0Y4eP" role="myz7o">
         <property role="mzGCo" value="term" />
         <property role="mzGCq" value="5 years" />
       </node>
-      <node concept="mWTz9" id="56OGMA0Y4e_" role="mWTzd">
-        <ref role="mWTz8" node="56OGMA0X0n7" resolve="investment" />
+      <node concept="mWTz9" id="1ZE7KhNJAKn" role="mWTzd">
+        <ref role="mWTz8" node="56OGMA0X0n7" resolve="Investment" />
       </node>
     </node>
   </node>
@@ -224,7 +224,7 @@
       <property role="TrG5h" value="savings " />
     </node>
     <node concept="mzAsw" id="56OGMA0X0n7" role="mzAsB">
-      <property role="TrG5h" value="investment" />
+      <property role="TrG5h" value="Investment" />
     </node>
   </node>
   <node concept="mz1DQ" id="56OGMA0ZIE5">
@@ -277,15 +277,6 @@
       <property role="myzGX" value="payment" />
     </node>
   </node>
-  <node concept="mWTYj" id="56OGMA12oWs">
-    <property role="TrG5h" value="Transction mode" />
-    <node concept="myz6b" id="56OGMA12oWt" role="mWTYi">
-      <property role="mzyOj" value="ATM" />
-    </node>
-    <node concept="myz6b" id="56OGMA12oWv" role="mWTYi">
-      <property role="mzyOj" value="Card" />
-    </node>
-  </node>
   <node concept="myz5w" id="56OGMA12W4s">
     <property role="TrG5h" value="Transctions" />
     <node concept="myz6$" id="56OGMA12W4w" role="mzzM8">
@@ -293,7 +284,7 @@
       <property role="myzHu" value="300" />
       <property role="myzHq" value="2023-04-03" />
       <ref role="mWMZ$" node="56OGMA11Qq7" />
-      <ref role="mWMZH" node="56OGMA12oWt" />
+      <ref role="mWMZH" node="1ZE7KhNLKVR" />
       <node concept="myz66" id="56OGMA12X6h" role="mWMZI">
         <property role="mzGCo" value="time" />
         <property role="mzGCq" value="12:30 PM" />
@@ -302,6 +293,18 @@
         <property role="mzGCo" value="adress" />
         <property role="mzGCq" value="via MG road,IT" />
       </node>
+    </node>
+  </node>
+  <node concept="mWTYj" id="1ZE7KhNLKVO">
+    <property role="TrG5h" value="TransctionMode" />
+    <node concept="myz6b" id="1ZE7KhNLKVP" role="mWTYi">
+      <property role="mzyOj" value="ATM" />
+    </node>
+    <node concept="myz6b" id="1ZE7KhNLKVR" role="mWTYi">
+      <property role="mzyOj" value="Card" />
+    </node>
+    <node concept="myz6b" id="1ZE7KhNLKVU" role="mWTYi">
+      <property role="mzyOj" value="online" />
     </node>
   </node>
 </model>
