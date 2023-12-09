@@ -7,6 +7,15 @@
   <imports />
   <registry>
     <language id="437c9db1-d8f4-4db9-b294-bc781192d511" name="NewLanguage">
+      <concept id="9052952037841192657" name="NewLanguage.structure.ROOT" flags="ng" index="2dzGOS">
+        <reference id="9052952037841192926" name="TransactionType" index="2dzGKR" />
+        <reference id="9052952037841192810" name="entity" index="2dzGM3" />
+        <reference id="9052952037841192782" name="product" index="2dzGMB" />
+        <reference id="9052952037841192752" name="servicesofferedBy" index="2dzGNp" />
+        <reference id="9052952037841192658" name="accountType" index="2dzGOV" />
+        <reference id="9052952037841192660" name="partyAssociatedWithAccount" index="2dzGOX" />
+        <reference id="2299684663707627406" name="Transctionmode" index="1GnJ2a" />
+      </concept>
       <concept id="8156410237083669125" name="NewLanguage.structure.TransctionList" flags="ng" index="myz5w">
         <child id="8156410237083934573" name="transction" index="mzzM8" />
       </concept>
@@ -133,7 +142,7 @@
       <property role="3hnWBk" value="6000" />
       <property role="myzJ9" value="74LoYlBIPw8/EUR" />
       <ref role="mz27B" node="74LoYlC38tN" resolve="checking" />
-      <ref role="mz4F9" node="56OGMA0Y4eq" resolve="prabhu bank limited" />
+      <ref role="mz4F9" node="56OGMA0Y4eq" resolve="prabhu Investment limited" />
       <ref role="mz4F3" node="56OGMA0ZIE8" />
       <node concept="myz66" id="56OGMA0X0mN" role="myzIx">
         <property role="mzGCo" value="overdraft" />
@@ -196,7 +205,7 @@
     <node concept="myz7R" id="56OGMA0Ump1" role="mNjqi">
       <property role="myz72" value="personal savings" />
       <property role="myz70" value="233" />
-      <ref role="myzI2" node="56OGMA0X0mP" />
+      <ref role="myzI2" node="56OGMA0X0mP" resolve="kumari bank limited" />
       <node concept="myz66" id="56OGMA0X0nr" role="myz7o">
         <property role="mzGCo" value="withdrawl limit" />
         <property role="mzGCq" value="5 per month" />
@@ -306,6 +315,16 @@
     <node concept="myz6b" id="1ZE7KhNLKVU" role="mWTYi">
       <property role="mzyOj" value="online" />
     </node>
+  </node>
+  <node concept="2dzGOS" id="11lEW3Q2GHf">
+    <property role="TrG5h" value="Root" />
+    <ref role="2dzGOV" node="74LoYlBSgPp" resolve="Accounttypes" />
+    <ref role="2dzGOX" node="56OGMA0ZIE5" resolve="Party" />
+    <ref role="2dzGNp" node="74LoYlBSRC_" resolve="FinancialEntity" />
+    <ref role="2dzGMB" node="74LoYlC4gPx" resolve="FinancialProductTypeList" />
+    <ref role="2dzGM3" node="56OGMA10g_l" resolve="Regulatory Entity" />
+    <ref role="2dzGKR" node="56OGMA11Qq6" resolve="Transction Types" />
+    <ref role="1GnJ2a" node="1ZE7KhNLKVO" resolve="TransctionMode" />
   </node>
 </model>
 

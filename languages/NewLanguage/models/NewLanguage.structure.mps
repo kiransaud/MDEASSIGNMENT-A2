@@ -463,7 +463,7 @@
     <property role="EcuMT" value="8156410237083810195" />
     <property role="TrG5h" value="PartyList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBJphf" role="1TKVEi">
       <property role="IQ2ns" value="8156410237083817039" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -491,7 +491,7 @@
     <property role="EcuMT" value="8156410237083888084" />
     <property role="TrG5h" value="FinanciaEntitylList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBJEBl" role="1TKVEi">
       <property role="IQ2ns" value="8156410237083888085" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -500,14 +500,14 @@
       <ref role="20lvS9" node="74LoYlBIP8Z" resolve="FinancialEntity" />
     </node>
     <node concept="PrWs8" id="74LoYlBLme1" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" />
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="74LoYlBJKj1">
     <property role="EcuMT" value="8156410237083911361" />
     <property role="TrG5h" value="FinancialProductTypeList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBJKj2" role="1TKVEi">
       <property role="IQ2ns" value="8156410237083911362" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -522,7 +522,7 @@
   <node concept="1TIwiD" id="74LoYlBJKj5">
     <property role="EcuMT" value="8156410237083911365" />
     <property role="TrG5h" value="FinancialProductType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="74LoYlBJMlw" role="1TKVEl">
       <property role="IQ2nx" value="8156410237083919712" />
       <property role="TrG5h" value="type" />
@@ -535,7 +535,7 @@
   <node concept="1TIwiD" id="74LoYlBKJvR">
     <property role="EcuMT" value="8156410237084170231" />
     <property role="TrG5h" value="RegulatoryEntityRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBKJvS" role="1TKVEi">
       <property role="IQ2ns" value="8156410237084170232" />
       <property role="20kJfa" value="entity" />
@@ -547,7 +547,7 @@
     <property role="EcuMT" value="8156410237084170845" />
     <property role="TrG5h" value="AccountTypeList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBKJDu" role="1TKVEi">
       <property role="IQ2ns" value="8156410237084170846" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -562,7 +562,7 @@
   <node concept="1TIwiD" id="74LoYlBKJGG">
     <property role="EcuMT" value="8156410237084171052" />
     <property role="TrG5h" value="FinancialProductTypeRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBKJGH" role="1TKVEi">
       <property role="IQ2ns" value="8156410237084171053" />
       <property role="20kJfa" value="product" />
@@ -574,7 +574,7 @@
     <property role="EcuMT" value="8156410237084171382" />
     <property role="TrG5h" value="TranscationModeList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBKJLR" role="1TKVEi">
       <property role="IQ2ns" value="8156410237084171383" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -590,7 +590,7 @@
     <property role="EcuMT" value="8156410237084171455" />
     <property role="TrG5h" value="TransactionTypeList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="74LoYlBKJN0" role="1TKVEi">
       <property role="IQ2ns" value="8156410237084171456" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -606,7 +606,7 @@
     <property role="EcuMT" value="8156410237087929716" />
     <property role="TrG5h" value="FinancialProductList" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="74LoYlBZ5lP" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -622,7 +622,7 @@
     <property role="EcuMT" value="9052952037841192657" />
     <property role="TrG5h" value="ROOT" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7QyyYBKb4ri" role="1TKVEi">
       <property role="IQ2ns" value="9052952037841192658" />
       <property role="20kJfa" value="accountType" />
@@ -662,6 +662,7 @@
     <node concept="1TJgyj" id="1ZE7KhNHeYe" role="1TKVEi">
       <property role="IQ2ns" value="2299684663707627406" />
       <property role="20kJfa" value="Transctionmode" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="74LoYlBKJLQ" resolve="TranscationModeList" />
     </node>
     <node concept="PrWs8" id="7QyyYBKb53$" role="PzmwI">

@@ -276,7 +276,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.associate("product", 0x7da28be9f02c474eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c1L).optional(false).origin("9052952037841192782").done();
     b.associate("entity", 0x7da28be9f02c476aL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb57f7L).optional(false).origin("9052952037841192810").done();
     b.associate("TransactionType", 0x7da28be9f02c47deL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fcbfL).optional(false).origin("9052952037841192926").done();
-    b.associate("Transctionmode", 0x1fea1f0473b4ef8eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L).optional(true).origin("2299684663707627406").done();
+    b.associate("Transctionmode", 0x1fea1f0473b4ef8eL).target(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L).optional(false).origin("2299684663707627406").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRegulation() {

@@ -5,6 +5,15 @@ package NewLanguage.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class ROOT_TextGen extends TextGenDescriptorBase {
   @Override
@@ -12,10 +21,133 @@ public class ROOT_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("<!DOCTYPE html>\n<html>\n<head>\n    <title>Financial System Modeling Language Documentation</title>\n    <style>\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f0f2f5;\n        }\n        .header {\n            background-color: #123456;\n            color: white;\n            text-align: center;\n            padding: 15px 0;\n        }\n        .content {\n            padding: 20px;\n            color: #333;\n        }\n        h2 {\n            border-bottom: 2px solid #123456;\n            padding-bottom: 5px;\n        }\n        ul {\n            list-style-type: disc;\n            margin-left: 20px;\n        }\n        li {\n            margin-bottom: 5px;\n        }\n    </style>\n</head>\n");
     tgs.append("<body>\n\n<div class=\"header\">\n    <h1>Welcome to the Financial System Modelling Language</h1>\n</div>\n\n<div class=\"content\">\n    \n    <section>\n        <h3>Financial Institution</h3>\n        <ul>\n");
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.servicesofferedBy$H$86), LINKS.finalcialEntityLists$fyVF)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.name$MnvL));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.address$UV5F));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.email$V9CD));
+        tgs.append("</li>");
+      }
+    });
     tgs.append("</ul>\n    </section>\n");
-    tgs.append("<section>\n        <h3>List of Services Offered</h3>\n        <ul>\n    ");
+
+    tgs.append("<section>\n        <h3>Account Types</h3>\n        <ul>\n    ");
+
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.accountType$E44b), LINKS.accountTypes$FXXF)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.name$MnvL));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.type$oj2F));
+        tgs.append("</li>");
+
+      }
+    });
+    tgs.append("</ul>\n    </section>\n");
+
+    tgs.append("<section>\n        <h3>Financial Product List </h3>\n        <ul>\n    ");
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.product$HTWz), LINKS.producttypelist$Bybb)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.name$MnvL));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.type$uK1C));
+        tgs.append("</li>");
+      }
+    });
+
+    tgs.append("</ul>\n    </section>\n");
+
+    tgs.append("<section>\n        <h3>Parties Asscoiated </h3>\n        <ul>\n    ");
+
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.partyAssociatedWithAccount$E9ty), LINKS.parties$Ql2c)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.partyName$SjRg));
+        tgs.append("</li>");
+
+      }
+    });
+    tgs.append("</ul>\n    </section>\n");
+
+    tgs.append("<section>\n        <h3> Transction Types </h3>\n        <ul>\n    ");
+
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.TransactionType$OibJ), LINKS.types$ehwF)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.name$MnvL));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.type$9Tfw));
+        tgs.append("</li>");
+
+      }
+    });
+    tgs.append("</ul>\n    </section>\n");
+
+    tgs.append("<section>\n        <h3> Transction Modes  </h3>\n        <ul>\n    ");
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.Transctionmode$R1Kl), LINKS.modes$aY$b)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.mode$YE$g));
+        tgs.append("<li>");
+        tgs.append("</li>");
+      }
+    });
+    tgs.append("</ul>\n    </section>\n");
+
+    tgs.append("<section>\n        <h3> Regulatory Entity  </h3>\n        <ul>\n    ");
+    ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.entity$KC29), LINKS.regulatoryEntities$gEB3)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.regulatoryBodyName$6GCr));
+        tgs.append("</li>");
+        tgs.append("<li>");
+        tgs.append(SPropertyOperations.getString(it, PROPS.regulatoryEntityType$UgbB));
+        tgs.append("</li>");
+        tgs.append("<li>");
+
+      }
+    });
 
 
+  }
 
+  private static final class LINKS {
+    /*package*/ static final SReferenceLink servicesofferedBy$H$86 = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c4730L, "servicesofferedBy");
+    /*package*/ static final SContainmentLink finalcialEntityLists$fyVF = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bea9d4L, 0x713163e567bea9d5L, "finalcialEntityLists");
+    /*package*/ static final SReferenceLink accountType$E44b = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c46d2L, "accountType");
+    /*package*/ static final SContainmentLink accountTypes$FXXF = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fa5dL, 0x713163e567c2fa5eL, "accountTypes");
+    /*package*/ static final SReferenceLink product$HTWz = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c474eL, "product");
+    /*package*/ static final SContainmentLink producttypelist$Bybb = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c1L, 0x713163e567bf04c2L, "producttypelist");
+    /*package*/ static final SReferenceLink partyAssociatedWithAccount$E9ty = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c46d4L, "partyAssociatedWithAccount");
+    /*package*/ static final SContainmentLink parties$Ql2c = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bd7993L, 0x713163e567bd944fL, "parties");
+    /*package*/ static final SReferenceLink TransactionType$OibJ = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c47deL, "TransactionType");
+    /*package*/ static final SContainmentLink types$ehwF = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fcbfL, 0x713163e567c2fcc0L, "types");
+    /*package*/ static final SReferenceLink Transctionmode$R1Kl = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x1fea1f0473b4ef8eL, "Transctionmode");
+    /*package*/ static final SContainmentLink modes$aY$b = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L, 0x713163e567c2fc77L, "modes");
+    /*package*/ static final SReferenceLink entity$KC29 = MetaAdapterFactory.getReferenceLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x7da28be9f02c46d1L, 0x7da28be9f02c476aL, "entity");
+    /*package*/ static final SContainmentLink regulatoryEntities$gEB3 = MetaAdapterFactory.getContainmentLink(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb57f7L, 0x713163e567bb57fbL, "regulatoryEntities");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty address$UV5F = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bd4eeaL, "address");
+    /*package*/ static final SProperty email$V9CD = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bd4efeL, "email");
+    /*package*/ static final SProperty type$oj2F = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L, 0x713163e567bb58e2L, "type");
+    /*package*/ static final SProperty type$uK1C = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c5L, 0x713163e567bf2560L, "type");
+    /*package*/ static final SProperty partyName$SjRg = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L, 0x713163e567be1c56L, "partyName");
+    /*package*/ static final SProperty type$9Tfw = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb525bL, 0x713163e567bb58d8L, "type");
+    /*package*/ static final SProperty mode$YE$g = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb526eL, 0x713163e567bf4ef6L, "mode");
+    /*package*/ static final SProperty regulatoryBodyName$6GCr = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L, 0x713163e567bb5890L, "regulatoryBodyName");
+    /*package*/ static final SProperty regulatoryEntityType$UgbB = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L, 0x713163e567c2f91cL, "regulatoryEntityType");
   }
 }
