@@ -169,11 +169,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.financialEntityName$60MV;
+      final SProperty property = PROPS.name$MnvL;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no financialEntityName>");
-      editorCell.setCellId("property_financialEntityName");
+      editorCell.setDefaultText("<no name>");
+      editorCell.setCellId("property_name");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
       Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
@@ -594,7 +594,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class PROPS {
     /*package*/ static final SProperty financialEntityID$5UGx = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bb584fL, "financialEntityID");
-    /*package*/ static final SProperty financialEntityName$60MV = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bb5854L, "financialEntityName");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty finnancialEntityType$5Vaz = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bb5851L, "finnancialEntityType");
     /*package*/ static final SProperty address$UV5F = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bd4eeaL, "address");
     /*package*/ static final SProperty contact$V289 = MetaAdapterFactory.getProperty(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL, 0x713163e567bd4ef3L, "contact");

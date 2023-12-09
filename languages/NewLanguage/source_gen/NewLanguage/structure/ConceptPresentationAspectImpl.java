@@ -81,7 +81,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_FinancialEntity == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc(" represents  a generic financial institution within a financial system.");
-          cpb.rawPresentation("FinancialEntity");
+          cpb.presentationByName();
           props_FinancialEntity = cpb.create();
         }
         return props_FinancialEntity;
@@ -154,7 +154,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.RegulatoryEntity:
         if (props_RegulatoryEntity == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("RegulatoryEntity");
+          cpb.presentationByName();
           props_RegulatoryEntity = cpb.create();
         }
         return props_RegulatoryEntity;

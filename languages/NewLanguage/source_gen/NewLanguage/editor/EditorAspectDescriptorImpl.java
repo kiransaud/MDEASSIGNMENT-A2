@@ -51,20 +51,22 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 15:
         return Collections.<ConceptEditor>singletonList(new RegulatoryEntityList_Editor());
       case 16:
-        return Collections.<ConceptEditor>singletonList(new RegulatoryEntityType_Editor());
+        return Collections.<ConceptEditor>singletonList(new RegulatoryEntityRef_Editor());
       case 17:
-        return Collections.<ConceptEditor>singletonList(new SpecificAttributes_Editor());
+        return Collections.<ConceptEditor>singletonList(new RegulatoryEntityType_Editor());
       case 18:
-        return Collections.<ConceptEditor>singletonList(new TransactionTypeList_Editor());
+        return Collections.<ConceptEditor>singletonList(new SpecificAttributes_Editor());
       case 19:
-        return Collections.<ConceptEditor>singletonList(new TranscationModeList_Editor());
+        return Collections.<ConceptEditor>singletonList(new TransactionTypeList_Editor());
       case 20:
-        return Collections.<ConceptEditor>singletonList(new TransctionList_Editor());
+        return Collections.<ConceptEditor>singletonList(new TranscationModeList_Editor());
       case 21:
-        return Collections.<ConceptEditor>singletonList(new TransctionMode_Editor());
+        return Collections.<ConceptEditor>singletonList(new TransctionList_Editor());
       case 22:
-        return Collections.<ConceptEditor>singletonList(new Transctions_Editor());
+        return Collections.<ConceptEditor>singletonList(new TransctionMode_Editor());
       case 23:
+        return Collections.<ConceptEditor>singletonList(new Transctions_Editor());
+      case 24:
         return Collections.<ConceptEditor>singletonList(new TransctionsType_Editor());
       default:
     }
@@ -88,6 +90,6 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5240L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5283L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fa5dL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bea9d4L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5212L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567fc5574L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c5L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c1L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fb2cL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bd7993L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5245L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb57f7L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5261L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5263L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fcbfL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5285L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb526eL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5241L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb525bL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5240L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5283L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb58e1L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fa5dL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bea9d4L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5212L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567fc5574L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c5L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bf04c1L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fb2cL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5242L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bd7993L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5245L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb57f7L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2f7f7L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5261L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5263L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fcbfL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fc76L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5285L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb526eL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5241L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb525bL)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5212L), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2fb2cL), MetaIdFactory.conceptId(0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567c2f7f7L)).seal();
 }

@@ -185,6 +185,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForFinancialEntity() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("NewLanguage", "FinancialEntity", 0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb523fL);
     b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)/8156410237083669055");
     b.version(3);
     b.property("financialEntityID", 0x713163e567bb584fL).type(PrimitiveTypeId.INTEGER).origin("8156410237083670607").done();
@@ -293,6 +294,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForRegulatoryEntity() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("NewLanguage", "RegulatoryEntity", 0x437c9db1d8f44db9L, 0xb294bc781192d511L, 0x713163e567bb5244L);
     b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)/8156410237083669060");
     b.version(3);
     b.property("regulatoryID", 0x713163e567bb588eL).type(PrimitiveTypeId.INTEGER).origin("8156410237083670670").done();

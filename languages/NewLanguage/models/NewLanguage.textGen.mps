@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="go8e" ref="r:1bd05ee4-1cfd-460a-b7cb-4e1ec89d275e(NewLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -56,7 +57,7 @@
             <property role="lacIc" value="&lt;body&gt;\n\n&lt;div class=&quot;header&quot;&gt;\n    &lt;h1&gt;Welcome to the Financial System Modelling Language&lt;/h1&gt;\n&lt;/div&gt;\n\n&lt;div class=&quot;content&quot;&gt;\n    \n    &lt;section&gt;\n        &lt;h3&gt;List of Account Types&lt;/h3&gt;\n        &lt;ul&gt;\n" />
           </node>
         </node>
-        <node concept="3clFbH" id="7QyyYBKbm_7" role="3cqZAp" />
+        <node concept="3clFbH" id="7QyyYBKg3zm" role="3cqZAp" />
       </node>
     </node>
     <node concept="29tfMY" id="7QyyYBKb7Om" role="29tGrW">

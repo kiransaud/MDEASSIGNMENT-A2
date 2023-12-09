@@ -246,7 +246,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       try {
         final SProperty property = PROPS.financialEntityName$60MV;
         getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
-        EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
+        EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, true, false), myNode);
         editorCell.setDefaultText("<no financialEntityName>");
         editorCell.setCellId("property_financialEntityName");
         editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));

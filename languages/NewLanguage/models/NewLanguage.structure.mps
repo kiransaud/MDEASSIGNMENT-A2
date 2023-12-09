@@ -135,6 +135,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="74LoYlBKJvR" resolve="RegulatoryEntityRef" />
     </node>
+    <node concept="PrWs8" id="7QyyYBKdKlR" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="74LoYlBIP90">
     <property role="EcuMT" value="8156410237083669056" />
@@ -267,6 +270,9 @@
       <property role="20kJfa" value="regulation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="74LoYlBIP95" resolve="Regulation" />
+    </node>
+    <node concept="PrWs8" id="7QyyYBKekWW" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="74LoYlBIP95">

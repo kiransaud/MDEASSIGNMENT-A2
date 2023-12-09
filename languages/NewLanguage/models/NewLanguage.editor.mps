@@ -188,7 +188,7 @@
           <property role="3F0ifm" value=":" />
         </node>
         <node concept="3F0A7n" id="74LoYlBKiAH" role="3EZMnx">
-          <ref role="1NtTu8" to="go8e:74LoYlBIPxk" resolve="financialEntityName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="2iRfu4" id="74LoYlBKiAo" role="2iSdaV" />
       </node>
@@ -305,6 +305,7 @@
           <ref role="1NtTu8" to="go8e:74LoYlBJi$G" resolve="InstitutionWithAccount" />
           <node concept="1sVBvm" id="74LoYlBKsbq" role="1sWHZn">
             <node concept="3F0A7n" id="74LoYlBKsbs" role="2wV5jI">
+              <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="go8e:74LoYlBIPxk" resolve="financialEntityName" />
             </node>
           </node>
@@ -575,7 +576,7 @@
         </node>
         <node concept="2iRfu4" id="74LoYlBKJ_e" role="2iSdaV" />
         <node concept="3F0A7n" id="74LoYlBKJ_u" role="3EZMnx">
-          <ref role="1NtTu8" to="go8e:74LoYlBIPyg" resolve="regulatoryBodyName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
       <node concept="3EZMnI" id="74LoYlBKJ_I" role="3EZMnx">
@@ -1015,6 +1016,23 @@
         </node>
         <node concept="11LMrY" id="74LoYlC4gQJ" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7QyyYBKeT$7">
+    <ref role="1XX52x" to="go8e:74LoYlBKJvR" resolve="RegulatoryEntityRef" />
+    <node concept="3EZMnI" id="7QyyYBKeT$9" role="2wV5jI">
+      <node concept="l2Vlx" id="7QyyYBKeT$a" role="2iSdaV" />
+      <node concept="3F0ifn" id="7QyyYBKeT$c" role="3EZMnx">
+        <property role="3F0ifm" value="entity" />
+      </node>
+      <node concept="1iCGBv" id="7QyyYBKeT$d" role="3EZMnx">
+        <ref role="1NtTu8" to="go8e:74LoYlBKJvS" resolve="entity" />
+        <node concept="1sVBvm" id="7QyyYBKeT$g" role="1sWHZn">
+          <node concept="3F0A7n" id="7QyyYBKeT$i" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
         </node>
       </node>
     </node>
