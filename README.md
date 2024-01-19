@@ -5,5 +5,4 @@ Since the last time when we we selected our domain as bank-atm-system, we have c
 
 We have classes like account, transaction, financial product and their details which can fit into our model. 
 The new metamodel can be found in https://app.genmymodel.com/personal/projects/_wIjwsJaJEe68OoIFaSTbiQ
-
 For our A2 we will be proceeding with this new metamodel. 
